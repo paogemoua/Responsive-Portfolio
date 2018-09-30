@@ -5,13 +5,17 @@
 <title>Paoge Moua</title>
 <meta charset="utf-8">
 <meta name="viewpoint" content="width=device-width,
-initial-scale=1">
+    initial-scale=1">
 
-<link rel="stylesheet" type="text/css" href="assets/css/contact_style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
 <body>
+
 <!-- Top & Bottom boxes across whole page -->
 
 <div class="box1"></div>
@@ -20,44 +24,46 @@ initial-scale=1">
 
 <!-- Paoge Moua heading box -->
 
-<div class="header">
-	<h1>Paoge Moua</h1>
+<!-- <div class="header"> -->
+<div class="nameLogo">
+    <h1 class="header">Paoge Moua</h1>
 </div>
 
 <!-- About Portfolio Contact heading bar -->
 
-<ul>
+<div class="navLinks">
+    <ul>
+    <li><a href="#contact" class="leftborder">Contact</a></li>	
+    <li><a href="#portfolio" class="leftborder">Portfolio</a></li>	
+    <li><a href="#about">About</a></li>
+    </ul>
+</div>
 
-<li><a href="#contact" id="leftborder">Contact</a></li>	
-
-<li><a href="#portfolio" id="leftborder">Portfolio</a></li>	
-
-<li><a href="#about">About</a></li>
-  
-</ul>
+<!-- Contact section box -->
 
 <div id="contact">
-    
-    <h2>Contact</h2>
 
-    <hr>
+<h2>Contact</h2>
 
-    <form action="/action_page.php">
-        Name<br>
-        <input type="text" name="name" value="John Doe"
-        size="100"><br>
-        Email<br>
-        <input type="text" name="email" 
-        value="example@gmail.com" size="100"><br>
-        Message<br>
-        <input type="text" name="message" size="100" id="message">
-        <br><br>
-        <input type="submit" value="Submit">
-    </form>
+<hr>
+
+<form action="/action_page.php">
+    Name<br>
+    <input type="text" name="name" value="John Doe"
+    size="100"><br>
+    Email<br>
+    <input type="text" name="email" 
+    value="example@gmail.com" size="100"><br>
+    Message<br>
+    <input type="text" name="message" size="100" id="message">
+    <br><br>
+    <input type="submit" value="Submit">
+</form>
+
 </div>
 
 <footer>
-    Copyright ©
+        Copyright ©
 </footer>
 
 </body>

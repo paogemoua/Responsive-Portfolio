@@ -9,158 +9,6 @@
 
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-<!-- <style>
-/* Styling for entire page */
-body {
-	font-family: 'Arial', 'Helvetica Neue', 
-    Helvetica, sans-serif;
-    background-image: url(concrete_seamless.png); 
-}
-
-/* Styling for About Me */
-h2 {
-    color:#4aaaa5;
-    font-family: 'Georgia', Times, "Times New Roman", serif;
-    font-size: 35px;
-}
-
-/* Styling for horizontal line in main content box */
-hr {
-    color: #dddddd; background-color: #dddddd;
-    height: 3px; border: none;
-}
-
-/* Styling for personal image */ 
-img {
-    float: left;
-    width:150px;
-    height:200px;margin-right:15px;
-}
-
-p {
-    font-size: large;
-    line-height: 1.6;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-/* Styling for About Me box */
-#aboutme {
-    position: fixed;
-    left: 300px;
-    top: 150px;
-    border: none;
-    background-color:#fff; color:#777777; 
-    outline: 1px solid gray;
-    width: 1000px; height: 500px; padding: 25px; 
-    margin: 50px; box-align: center"
-}
-
-/* Paoge Moua & About Portfolio Contact heading bar */
-
-.header {
-    background-color: #4aaaa5;
-    color: #ffffff;
-    width: 250px;
-    border: none;
-    padding: 15px;
-    margin: 0px;
-    height: 90px;
-    font-family: 'Georgia', Times, "Times New Roman", serif;
-    font-size: 25px;
-    float: left;
-    text-align: center;
-    position: fixed;
-    top: 0%;
-    left: 350px;
-    z-index: 5;
-}
-
-/* 2nd part of code for About Portfolio Contact across top of page - no hyperlinks YET */
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
-}
-
-li {
-    float: right;
-}
-
-li a {
-    display: inline-block;
-    color: #777777;
-    text-align: center;
-    padding:  0px 14px 0px 16px;
-    text-decoration: none;
-    font-family: 'Georgia', Times, "Times New Roman", serif;
-}
-
-li a:hover {
-    background-color: #111;
-}
-
-#leftborder {
-	border-left: 1px solid #cccccc;
-}
-
-/* Top & Bottom boxes across whole page */
-
-.box1 {
-    background-color: #ffffff;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 88%;
-    left: 0;
-    width: 100%;
-    height: 90px;
-    z-index: -10;
-}
-
-.box2 {
-    background-color: #4aaaa5;
-    position: fixed;
-    top: 93%;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 170px;
-    z-index: -4;
-}
-
-.box3 {
-    background-color: #666666;
-    position: fixed;
-    top: 94%;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 60px;
-    z-index: 1;
-}
-
-/* ADD POSITION FIXED */
-footer {
-    color: white;
-    text-align: center; font-size: small;
-    position: fixed;
-    top: 96%;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: auto;
-    z-index: 5;
-}
-
-</style> -->
 </head>
 
 <body>
@@ -174,20 +22,22 @@ footer {
 <!-- Paoge Moua heading box -->
 
 <!-- <div class="header"> -->
-<div>
-	<h1 class="header">Paoge Moua</h1>
+<div class="nameLogo">
+    <h1 class="header">Paoge Moua</h1>
+</div>
 
 <!-- About Portfolio Contact heading bar -->
 
-<ul>
+<div class="navLinks">
+    <ul>
 
-<li><a href="#contact" id="leftborder">Contact</a></li>	
+    <li><a href="#contact" class="leftborder">Contact</a></li>	
 
-<li><a href="#portfolio" id="leftborder">Portfolio</a></li>	
+    <li><a href="#portfolio" class="leftborder">Portfolio</a></li>	
 
-<li><a href="#about">About</a></li>
-  
-</ul>
+    <li><a href="#about">About</a></li>
+    
+    </ul>
 </div>
 
 <!-- About Me section box - ADD FIXED POSITION -->
@@ -216,7 +66,6 @@ footer {
         For the next chapter in my life, I want to thrive in these areas.  
         I want to lead a resilient and spontaneous team that is passionate about learning and helping other succeed. 
         The next 6 months will be springboard to finding this team.
-
     </p>
 </div>
 

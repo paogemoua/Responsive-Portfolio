@@ -170,6 +170,19 @@ li a:hover {
   vertical-align: middle;
 }
 
+.portfolioItem {
+    position: relative;
+    float: left;
+}
+
+.portfolioItem h2 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    background: #4aaaa5;
+}
+
 /* Styling for Footer */
 footer {
     color: white;
@@ -181,4 +194,187 @@ footer {
     left: 0;
     width: auto;
     z-index: 5;
+}
+
+/* 640 */
+@media (max-width: 640px;) {
+    h1 {
+        position: fixed;
+        top: 0;
+        width: auto;
+    }
+    
+    #portfolio {
+        background-color:#fff; color: teal; 
+        outline: 1px solid gray;
+        width: 1000px; height: 700px; padding: 25px; 
+        margin: 50px; box-align: center;
+        position: relative;
+        left: 295px;
+        top: 50px;
+        border: none;
+    }
+
+    .box1 {
+        display: none;
+    }
+    
+    .box2 {
+        background-color: #4aaaa5;
+        position: fixed;
+        top: 93%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: auto;
+        height: 170px;
+        z-index: -4;
+    }
+    
+    .box3 {
+        background-color: #666666;
+        position: fixed;
+        top: 94%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: auto;
+        height: 60px;
+        z-index: 1;
+    }
+
+    footer {
+        color: white;
+        text-align: center; 
+        font-size: medium;
+        position: fixed;
+        top: 96%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: auto;
+        z-index: 5;
+    }
+}
+
+/* 768 */
+@media (max-width: 768px;) {
+    h1 {
+        position: fixed;
+        top: 0;
+        width: auto;
+    }
+    
+    #portfolio {
+        background-color:#fff; color: teal; 
+        outline: 1px solid gray;
+        width: 1000px; height: 700px; padding: 25px; 
+        margin: 50px; box-align: center;
+        position: relative;
+        left: 295px;
+        top: 50px;
+        border: none;
+    }
+
+    .box1 {
+        display: none;
+    }
+    
+    .box2 {
+        background-color: #4aaaa5;
+        position: fixed;
+        top: 93%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: auto;
+        height: 170px;
+        z-index: -4;
+    }
+    
+    .box3 {
+        background-color: #666666;
+        position: fixed;
+        top: 94%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: auto;
+        height: 60px;
+        z-index: 1;
+    }
+
+    footer {
+        color: white;
+        text-align: center; 
+        font-size: medium;
+        position: fixed;
+        top: 96%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: auto;
+        z-index: 5;
+    }
+}
+
+/* 980 */ 
+@media (max-width: 980px;) {
+    h1 {
+        position: fixed;
+        top: 0;
+        width: auto;
+    }
+    
+    #portfolio {
+        background-color:#fff; color: teal; 
+        outline: 1px solid gray;
+        width: 1000px; height: 700px; padding: 25px; 
+        margin: 50px; box-align: center;
+        position: relative;
+        left: 295px;
+        top: 50px;
+        border: none;
+    }
+
+    .box1 {
+        display: none;
+    }
+    
+    .box2 {
+        background-color: #4aaaa5;
+        position: fixed;
+        top: 93%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: auto;
+        height: 170px;
+        z-index: -4;
+    }
+    
+    .box3 {
+        background-color: #666666;
+        position: fixed;
+        top: 94%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: auto;
+        height: 60px;
+        z-index: 1;
+    }
+
+    footer {
+        color: white;
+        text-align: center; 
+        font-size: medium;
+        position: fixed;
+        top: 96%;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: auto;
+        z-index: 5;
+    }
 }

@@ -4,10 +4,11 @@
 <head>
 <title>Paoge Moua</title>
 <meta charset="utf-8">
-<meta name="viewpoint" content="width=device-width,
-    initial-scale=1">
+<meta name="viewpoint" content="width=device-width, initial-scale=1">
+
 
 <link rel="stylesheet" type="text/css" href="assets/css/portfolio_style.css">
+<!--<link rel="stylesheet" type="text/css" href="assets/css/style.css">-->
 </head>
 
 <body>
@@ -19,21 +20,23 @@
 
 <!-- Paoge Moua heading box -->
 
-<div class="header">
-	<h1>Paoge Moua</h1>
+<div class="nameLogo">
+	<h1 class="header">Paoge Moua</h1>
 </div>
 
 <!-- About Portfolio Contact heading bar -->
 
-<ul>
+<div class="navLinks">
+        <ul>
 
-<li><a href="#contact" id="leftborder">Contact</a></li>	
+        <li><a href="#contact" class="leftborder">Contact</a></li>	
 
-<li><a href="#portfolio" id="leftborder">Portfolio</a></li>	
+        <li><a href="#portfolio" class="leftborder">Portfolio</a></li>	
 
-<li><a href="#about">About</a></li>
-  
-</ul>
+        <li><a href="#about">About</a></li>
+        
+        </ul>
+</div>
 
 <!-- Portfolio box -->
 <div id="portfolio">
@@ -43,33 +46,54 @@
 
     <hr>
 
-    <div class="row container"> 
+    <div class="row container">
         <div id="hangman" class="column">
-            <img src="assets/images/hangman_icon.png" alt="hangman">
-            <!--<div class="module">
-                <h2 id="textimage">Hangman</h2>
-            </div>-->
+            <div class="portfolioItem">
+                <img src="assets/images/hangman_icon.png" alt="hangman">
+                
+                <h2>Hangman</h2>
+            </div>  
         </div>
         <div id="RPG" class="column">
-          <img src="assets/images/RPG_game.png" alt="RPG">
-        </div> 
-        <div id="trivia" class="column">
-          <img src="assets/images/triviaquizbigicon.png" alt="trivia">
+            <div class="porfolioItem">
+                <img src="assets/images/RPG_game.png" alt="RPG">
+
+                <h2>RPG Game</h2>
+            </div>
         </div>
-        <div id="rutgers" class="column">
-          <img src="assets/images/rutgersinfowidget.jpg" alt="rutgers">
-        </div>
-        <div id="rockpaperscissors" class="column">
-            <img src="assets/images/rock_paper_scissors.png" alt="rockpaperscissors">
-        <div id="invisible" class="column">
-            <img src="assets/images/hangman_icon.png">
-          </div>
     </div>
 
-    <!-- Text over images in image grid
-    <div class="module">
-        <h2 id="textimage">Hangman</h2>
-    </div> -->
+    <div class="row container">
+        <div id="trivia" class="column">
+            <div class="porfolioItem"> 
+                <img src="assets/images/triviaquizbigicon.png" alt="trivia">
+
+                <h2>Trivia Game</h2>
+            </div>
+        </div>
+        <div id="rutgers" class="column">
+            <div class="portfolioItem">
+                <img src="assets/images/rutgersinfowidget.jpg" alt="rutgers">
+
+                <h2>Rutgers Info Widget</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="row container">
+        <div id="rockpaperscissors" class="column">
+            <div class="portfolioItem">
+                <img src="assets/images/rock_paper_scissors.png" alt="rockpaperscissors">
+
+                <h2>Rock Paper Scissors</h2>
+            </div>
+        </div>
+        <div id="invisible" class="column">
+            <div class="portfolioItem">
+                    <img src="assets/images/hangman_icon.png">
+            </div>
+        </div>
+    </div>
 
 </div>
 
